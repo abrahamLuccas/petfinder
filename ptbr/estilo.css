@@ -1,0 +1,82 @@
+body{
+    
+    align-items: center;
+    text-align: center;
+
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./MEDIA/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;;
+    src: url(./MEDIA/fonts/Montserrat-Medium.ttf);;
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./MEDIA/fonts/Montserrat-Bold.ttf);;
+}
+/* TELA HOME*/
+
+.screen{
+    width: 414px;
+    height: 800px;
+    background-color: rgb(151, 195, 234);
+    margin-left: 745px;
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px;
+    z-index: 1;
+    position: relative;
+}
+
+#menino{
+    position: relative;
+    top: 173px;
+    left: 9px;
+}
+
+#home_title{
+    font-size: 50px;
+    font-family: 'Montserrat-Regular';
+    position: relative;
+    top: 150px;
+    color: rgb(6, 67, 120);
+}
+
+#home_subtitle{
+    position:  relative;
+    font-size: 20px;
+    font-family: 'Montserrat-Regular';
+    top: 150px;
+    color: white;
+}
+
+.next{
+    position: relative;
+    background-color: rgb(6, 67, 120);
+    border-radius: 100px;
+    padding: 0.2em;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.next_screen{
+    background-color: white;
+    width: 12px;
+    padding: 0.2em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: -80px;
+    left: 200px;
+}
+
+
+/*FIM*/
